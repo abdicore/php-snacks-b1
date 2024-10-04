@@ -1,6 +1,7 @@
 
 
 <?php 
+if($_GET['nome'])
 
 ?>
 <!DOCTYPE html>
@@ -30,7 +31,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="age" class="form-label">inserisci la tua età</label>
-                        <input type="text" class="form-control" id="age" name="age" placeholder="Inserisci la parola da nmail">
+                        <input type="number" class="form-control" id="age" name="age" placeholder="Inserisci la parola da nmail">
                     </div> 
                     
                     <button type="submit" class="btn btn-primary">Send</button>
@@ -38,6 +39,7 @@
                 </form>
                 <h3>LA Lunghezza del nome è:</h3>
                 <?php echo strlen($_GET['nome']);?>
+
                
             </div>
         </section>
