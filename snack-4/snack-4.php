@@ -262,12 +262,12 @@
                     <ul>
                         <?php foreach($classe as $studente ){?>
                         <li>
-                        <?php echo  $studente["nome"]?>
-                        <?php echo  $studente["cognome"]?>
-                        <?php echo  $studente["anni"]?>
-                        <?php echo  $studente["voto_medio"]?>
-                        <?php echo  $studente["linguaggio_preferito"]?>
-                        <?php echo  $studente["immagine"]?>
+                        <p>Nome: <?php echo  $studente["nome"]?></p>
+                        <p>Cognome: <?php echo  $studente["cognome"]?></p>
+                        <p>Eta: <?php echo  $studente["anni"]?></p>
+                        <p>Voto medio: <?php echo  $studente["voto_medio"]?></p>
+                        <p>Linguaggio preferito: <?php echo  $studente["linguaggio_preferito"]?></p>
+                        <p> Foto: <?php echo  $studente["immagine"]?>
 
                         </li>
                     </ul>
