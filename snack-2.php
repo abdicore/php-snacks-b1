@@ -1,7 +1,6 @@
 
 
 <?php 
-$saluto = "ciao"
 
 ?>
 <!DOCTYPE html>
@@ -37,6 +36,8 @@ $saluto = "ciao"
                     <button type="submit" class="btn btn-primary">Send</button>
                     <button type="reset" class="btn btn-warning">Reset</button>
                 </form>
+                <h3>LA Lunghezza del nome è:</h3>
+                <?php echo strlen($_GET['nome']);?>
                
             </div>
         </section>
