@@ -257,13 +257,18 @@
      <main class="container">
         <section class="row">
             <div class="col-12">
-                <?php foreach($classi as $class => $list ){?>
-                    <h2><?php echo $class?></h2>
+                <?php foreach($classi as $key =>$classe ){?>
+                    <h2><?php echo $key?></h2>
                     <ul>
-                        <?php foreach($list as $name => $nameValue ){?>
+                        <?php foreach($classe as $studente ){?>
                         <li>
-                        <?php var_dump($nameValue)?>
-                        <?php echo $nameValue?>
+                        <?php echo  $studente["nome"]?>
+                        <?php echo  $studente["cognome"]?>
+                        <?php echo  $studente["anni"]?>
+                        <?php echo  $studente["voto_medio"]?>
+                        <?php echo  $studente["linguaggio_preferito"]?>
+                        <?php echo  $studente["immagine"]?>
+
                         </li>
                     </ul>
 
