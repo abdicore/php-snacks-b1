@@ -44,7 +44,8 @@
         <section class="row">
             <div class="col-12">
                 <ul>
-                    <?php foreach ($teacher as $teachers)?>
+                    <?php foreach ($teachers as $teacher)?>
+                    var_dump($teacher)
                     <li>
                     <?php echo $teacher['name']; ?>
                     </li>
