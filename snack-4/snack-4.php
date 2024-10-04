@@ -259,8 +259,15 @@
             <div class="col-12">
                 <?php foreach($classi as $class => $list ){?>
                     <h2><?php echo $class?></h2>
+                    <ul>
+                        <?php foreach($list as $name => $nameValue ){?>
+                        <li>
+                        <?php var_dump($nameValue)?>
+                        <?php echo $nameValue?>
+                        </li>
+                    </ul>
 
-
+                        <?php }?>
                <?php }?>
               
                
