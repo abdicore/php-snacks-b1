@@ -43,12 +43,7 @@
      <main class="container">
         <section class="row">
             <div class="col-12">
-                <ul>
-                    <?php foreach ($teachers as $teacher)?>
-                    <li>
-                    <?php echo $teacher['name']; ?>
-                    </li>
-                </ul>
+              
                
             
                
