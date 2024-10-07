@@ -267,7 +267,7 @@
                         <p>Eta: <?php echo  $studente["anni"]?></p>
                         <p>Voto medio: <?php echo  $studente["voto_medio"]?></p>
                         <p>Linguaggio preferito: <?php echo  $studente["linguaggio_preferito"]?></p>
-                        <p> Foto: <?php echo  $studente["immagine"]?>
+                        <p>Foto: <?php echo  $studente["immagine"]?>
 
                         </li>
                     </ul>
